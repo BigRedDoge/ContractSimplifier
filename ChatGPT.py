@@ -6,7 +6,6 @@ from selenium.webdriver.support.wait import WebDriverWait
 import time
 import yaml
 
-
 class ChatGPT:
 
     def __init__(self):
@@ -50,7 +49,7 @@ class ChatGPT:
         wait = WebDriverWait(self.driver, 15)
         close_session = wait.until(EC.element_to_be_clickable((By.XPATH, '//*[@id="__next"]/div/div[2]/div/div/nav/a[2]')))
         close_session.click()
-        self.driver.close()
+        self.driver.quit()
 
     def start_session(self):
         self.driver.get('https://chat.openai.com/chat')

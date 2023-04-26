@@ -1,0 +1,17 @@
+---
+"chatgpt":
+  "credentials":
+    "email": "smc6548@rit.edu"
+    "password": "Woofer2001.openai"
+    
+  "start_chat": >-
+    "The next prompt will contain text from a Japanese to English translation
+    of a book.  You are going to: correct any grammatical or punctuation errors,
+    rewrite any sentences that don't flow well together, make the narrative sound
+    more natural, and format the text as a book would.  Be sure to remove any
+    repeating phrases, such as the book title or chapter.  Wait for the next prompt."
+  "max_prompt_length": 3000
+
+"book":
+  "title": "Mushoku Tensei Volume 21"
+  "path": "mushuko_tensei_volume_21.txt"
